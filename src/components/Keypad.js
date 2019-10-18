@@ -7,7 +7,7 @@ export default class Keypad extends React.Component {
 
   render() {
     return (
-		<button onClick={this.tickle}>Tickle me!</button>
+      <input type="password" />
     );
   }
 }
