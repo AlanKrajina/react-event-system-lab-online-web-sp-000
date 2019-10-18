@@ -1,1 +1,14 @@
-// Code EyesOnMe Component Here
+import React, { Component } from 'react';
+
+export default class EyesOnMe extends React.Component {
+
+  pass = () => {
+    console.log('Entering password...');
+  }
+
+  render() {
+    return (
+      <input  type="password" onKeyUp={this.pass}/>
+    );
+  }
+}
